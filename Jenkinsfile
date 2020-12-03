@@ -37,7 +37,7 @@ pipeline {
         stage(' Unit Testing') {
             steps {
                 bat """
-                ech "Running Unit Tests"
+                ec "Running Unit Tests"
                 """
             }
         }
